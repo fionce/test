@@ -1,0 +1,5 @@
+[INFO] 2015-05-28 14:24:22,108 tests.RulesTests logInfo - Thread 1 - ClassRule started
+[INFO] 2015-05-28 14:24:35,817 tests.RulesTests logInfo - Thread 1 - Before started
+[INFO] 2015-05-28 14:24:47,761 tests.RulesTests logInfo - Thread 1 - Before started
+[INFO] 2015-05-28 14:24:54,918 tests.RulesTests logInfo - Thread 1 - Succeeded: RulesTests.testA() of type: void
+[INFO] 2015-05-28 14:24:54,926 tests.RulesTests logInfo - Thread 1 - Before started

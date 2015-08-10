@@ -1,0 +1,2 @@
+[ERROR] 2015-05-27 10:45:27,243 models.ErrorsReporter logError - Thread 1 - For value: failingB null null
+[ERROR] 2015-05-27 10:45:27,243 tests.RulesTests logError - Thread 1 - Failed: testParams For value: failingB null

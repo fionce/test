@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/UserDataSchema" xmlns:tns="http://www.example.org/UserDataSchema" elementFormDefault="qualified">
+
+
+    <element name="Email" type="string"></element>
+
+    <element name="Password" type="string"></element>
+
+    <element name="Username" type="string"></element>
+
+    <complexType name="UserData">
+    	<sequence>
+    		<element ref="tns:Email"></element>
+    		<element ref="tns:Password"></element>
+    		<element ref="tns:Username"></element>
+    	</sequence>
+    </complexType>
+
+    <element name="User" type="tns:UserData"></element>
+</schema>
